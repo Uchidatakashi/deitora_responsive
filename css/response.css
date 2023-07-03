@@ -1,0 +1,85 @@
+@media(min-width :760px){
+.contens-itme{
+    width:100% ;
+ }
+ 
+.header-left{
+      float: left;
+      font-size:15px;
+      font-weight:bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* margin-left: 150px; */
+      /* margin-right:300px; */
+}
+
+.header-right {
+      float: right;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+      /*gap:20px;*/
+}
+
+.header-right li {
+    　/*float: right;*/
+      margin:0px 20px;
+      font-size:10px;
+      /*gap:20px;*/
+      font-weight:bold;
+    
+}
+  
+ .message-top h2{
+      font-size: 20px;
+}      
+      
+  .message-itme img{
+    width:50%;
+      
+}
+
+ .message-itme p {
+     float: right;
+     /*text-align: left;*/
+}
+
+.message-itme{
+    display:flex;
+    margin:20px 50px ;
+    gap:20px;
+}
+
+@media(max-width :760px){
+
+.header-left{
+   font-size:15px;
+   margin :10px 10px;
+}
+
+.header-right{
+  float:left;
+  font-size:10px;
+  font-weight:bold;
+  padding-bottom: 10px;
+}
+ 
+.header-right li{
+  float:left;
+  margin:auto;
+}
+
+.message-top h2{
+    font-size:10px;
+}
+
+.message-itme img {
+    width:100%;
+    height: auto;
+    padding-bottom:10px;
+    /*float:none;*/
+}
+
+.contens-itme{
+    width:100%;
+}
